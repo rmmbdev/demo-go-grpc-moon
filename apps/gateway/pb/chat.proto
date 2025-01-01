@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package apps.gateway.pb;
+
+option go_package = "apps/gateway/pb;pb";
+
+message Request {
+  string body = 1;
+}
+
+message Response{
+  string body = 1;
+}
+
+service ChatService{
+  rpc GetMessage(Request) returns (Response);
+}
