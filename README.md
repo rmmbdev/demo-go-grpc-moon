@@ -5,10 +5,6 @@
 To set up this project run these commands sequentially
 
 ```shell
-  moon init    
-```
-
-```shell
   proto install go --pin
 ```
 
@@ -23,6 +19,10 @@ To set up this project run these commands sequentially
 ```shell
   proto plugin add moon https://raw.githubusercontent.com/moonrepo/moon/master/proto-plugin.toml
   proto plugin add protoc  https://raw.githubusercontent.com/b4nst/proto-plugins/refs/heads/main/toml/protoc.toml 
+```
+
+```shell
+  moon init    
 ```
 
 ```shell
